@@ -5,9 +5,9 @@ Veewee::Session.declare({
   :disk_format => 'VDI',
   :hostiocache => 'off',
   :os_type_id => 'Centos_64',
-  :iso_file => 'CentOS-7-x86_64-Minimal-1503-01.iso',
-  :iso_src => "http://centos.vpsnet.lt/centos/7/isos/x86_64/CentOS-7-x86_64-Minimal-1511.iso",
-  :iso_sha256 => "f90e4d28fa377669b2db16cbcb451fcb9a89d2460e3645993e30e137ac37d284",
+  :iso_file => 'CentOS-6.8-x86_64-minimal.iso',
+  :iso_src => "http://centos.vpsnet.lt/centos/6/isos/x86_64/CentOS-6.8-x86_64-minimal.iso",
+  :iso_sha256 => "ec49c297d484b9da0787e5944edc38f7c70f21c0f6a60178d8e9a8926d1949f4",
   :iso_download_timeout => 1000,
   :boot_wait => "10",
   :boot_cmd_sequence => [

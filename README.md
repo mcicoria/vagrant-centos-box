@@ -1,7 +1,7 @@
-# Centos7 for Vagrant (virtualbox)
+# Centos 6.8 for Vagrant (virtualbox)
 
 This repo contain definition files to build a
-[Vagrant](http://www.vagrantup.com) box based latest CentOS 7 iso image.
+[Vagrant](http://www.vagrantup.com) box based on CentOS 6.8 iso image.
 This definition is made for fully-automated installation. 
 
 **NOTICE!** When virtualbox window opens, and you'll see a countdown for starting installation,
@@ -19,8 +19,8 @@ Checkout this repo. You'll need inside repo directory to build a box.
 
 Just run the following command in the repository root:
 
-    $ veewee vbox build CentOS-7.1
-    $ veewee vbox export CentOS-7.1
+    $ veewee vbox build CentOS-6
+    $ veewee vbox export CentOS-6
 
 ##Troubleshoot
 
